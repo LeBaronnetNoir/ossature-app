@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "OSSATURE",
+    "slug": "ossature",
+    "version": "1.0.0",
+    "owner": "lebaronnetnoirs-team",
+    "extra": {
+      "eas": {
+        "projectId": "f5a8111c-9523-499f-b7be-893ae82ebdf1"
+      }
+    },
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.ossature.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#080808"
+      },
+      "package": "com.ossature.app"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-camera",
+      [
+        "expo-image-picker",
+        { "photosPermission": "OSSATURE accède à vos photos pour scanner vos vinyles." }
+      ]
+    ],
+    "scheme": "ossature",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
