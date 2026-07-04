@@ -26,4 +26,9 @@
     "@supabase/realtime-js": "2.9.5",
     "@supabase/storage-js": "2.5.5",
     "@supabase/postgrest-js": "1.9.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "typescript": "^5.3.0"
   }
+}
